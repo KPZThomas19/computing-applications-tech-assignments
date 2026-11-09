@@ -1,0 +1,17 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Katherine Thomas</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="card">
+            <h1>Katherine Thomas</h1>
+            <p>I am a student at Texas Tech University pursuing a degree in Leadership Studies with a minor in Computer Applications. I love learning, I am looking forward to finishing my Bachelors degree and moving towards a Masters Program, and spending time near the ocean with my family.</p>
+            <p><a href="assignment03.html">Assignment 03</a></p>
+        </div>
+    </body>
+</html>
