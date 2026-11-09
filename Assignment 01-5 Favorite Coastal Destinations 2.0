@@ -1,0 +1,41 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Assignment 01: Top 5 List</title>
+    </head>
+    <body>
+
+        <header>
+            <!-- Link added pointing to your Assignment 01 document -->
+            <h1><a href="https://docs.google.com/document/d/1eJx02dl0axdpHU0M7i9D4KPzqf2hGMhtgLqydg0-G8w/edit?usp=drivesdk" target="_blank">Assignment 01: Top 5 List</a>: My Favorite Coastal Destinations</h1>
+        </header>
+
+        <main>
+            <ol>
+                <li>
+                    <h2><a href="https://www.visitmendocino.com/" target="_blank">Mendocino, California</a></h2>
+                    <p>Famous for the beautiful drive there as you drive through the California Redwoods. The town is charming and famous for being the opening scene to the show Murder She Wrote. It is also known as the Cape Cod of the West Coast.</p>
+                </li>
+                <li>
+                    <h2>2. Maui, Hawaii</h2>
+                    <p>Famous for its dramatic volcanic coastline, golden sand beaches, and scenic ocean drives along the coast. You can check out more on the <a href="https://www.gohawaii.com/islands/maui" target="_blank">Official Maui Tourism Site</a>.</p>
+                </li>
+                <li>
+                    <h2>3. Orange Beach, Alabama</h2>
+                    <p>Renowned for clear emerald green waters, sugar sand beaches, southern hospitality and laid back coastal living.</p>
+                </li>
+                <li>
+                    <h2>4. Deerfield Beach, Florida</h2>
+                    <p>Most like Maui weather and ocean temperature on the Atlantic coast, dramatic ocean views and great boardwalk, and they have the BEST 4th of JULY celebration and fireworks.</p>
+                </li>
+                <li>
+                    <h2>5. Monterey Bay, California</h2>
+                    <p>Offers sweeping Pacific ocean views, frolicking sea otters, seals and sea lions & known vibrant marine sanctuaries, and beautiful coastal walking trails.</p>
+                </li>
+            </ol>
+        </main>
+    </body>
+</html>
