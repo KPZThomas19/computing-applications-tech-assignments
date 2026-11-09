@@ -1,0 +1,52 @@
+CSS
+/* Step 7: Universal box-sizing rule */
+* {
+    box-sizing: border-box;
+}
+
+/* Step 8: Body element styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Step 9: Card container class */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border: 4px solid #457b9d;
+    border-radius: 8px;
+}
+
+/* Step 10: Headings and paragraphs inside the card */
+.card h1 {
+    color: #1d3557;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #457b9d;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Styling for any links inside your card */
+.card a {
+    color: #1d3557;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* Link color when hovered over */
+.card a:hover {
+    color: #457b9d;
+}
+HTML
+<p>Check out more details on <a href="https://www.example.com" target="_blank">our website</a>.</p>
