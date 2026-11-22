@@ -1,0 +1,221 @@
+:root {
+  --bg-page: #298aeb;
+  --bg-surface: #ffffff;
+  --bg-accent: #0f3050;
+  --color-primary: #080fdd;
+  --color-accent-hover: #10b1f7;
+  --text-main: #1b2127;
+  --text-muted: #52606d;
+  --text-light: #c4d7ea;
+  --border-subtle: #fafa2d;
+  --radius-md: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--text-main);
+  background-color: var(--bg-page);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header & Flexbox Navigation */
+.site-header {
+  background-color: var(--bg-accent);
+  color: var(--text-light);
+  padding: 1.25rem 1.5rem;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  color: var(--text-light);
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.45rem 0.7rem;
+  border-radius: 6px;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.site-nav a:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateY(-2px);
+}
+
+/* Main Content & Sections */
+.page-main {
+  flex: 1;
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.content-section {
+  background-color: var(--bg-surface);
+  border: 10px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.75rem;
+}
+
+.content-section h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* Skills & Projects Flexbox Rows */
+.skills-flex,
+.projects-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.skill-card,
+.project-card {
+  flex: 1 1 95%;
+  background-color: var(--bg-page);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: transform 0.30s ease, box-shadow 0.30s ease, border-color 0.30s ease;
+}
+
+.skill-card {
+  padding: 1.25rem;
+}
+
+.skill-card h3,
+.project-body h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.skill-card p,
+.project-body p {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16x 32px rgba(16, 42, 67, 0.08);
+  border-color: var(--color-accent-hover);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.project-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.75rem;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(16, 42, 67, 0.12);
+  border-color: var(--color-primary);
+}
+
+.card-action {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: 0.5rem 0.9rem;
+  background-color: var(--color-primary);
+  color: var(--text-light);
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+.card-action:hover {
+  background-color: var(--color-accent-hover);
+  transform: translateX(3px);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--bg-accent);
+  color: var(--text-light);
+  text-align: center;
+  padding: 1.25rem 1.5rem;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.footer-link {
+  color: #90e0ef;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Responsive Breakpoint for Tablet & Desktop */
+@media (min-width: 768px) {
+  .site-title {
+    font-size: 2rem;
+  }
+
+  .skill-card,
+  .project-card {
+    flex: 1 1 calc(33.333% - 1rem);
+  }
+}
