@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Times New Roman", serif;
+    line-height: 2;
+    background-color: #fafafa;
+    color: #1F2937;
+    padding: 32px 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #6B7280;
+    margin-bottom: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+.button-section {
+    padding: 32px;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.button-section p {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+button {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/* Button 01: Background color + text color change */    border-radius: 0;
+.button-01 {
+    background-color: #097df0;
+    color: #ffffff;
+    padding: 16px 32px;
+    border: 2px solid #097df0;
+   font-family: Verdana, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-01:hover {
+    background-color: #ffffff;
+    color: #073869;
+    border-color: #073869;
+}
+
+/* Button 02: Lift up (translateY) + deeper box-shadow */
+.button-02 {
+    background-color: #ab0a0a;
+    color: #ffffff;
+    padding: 18px 34px;
+    border: 2px solid #    background-color: #ab0a0a;
+    font-family: Verdana, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-02:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Button 03: Scale larger + background color shift */
+.button-03 {
+    background-color: #effc62;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: 2px solid #effc62;
+    font-family: "Courier New", monospace;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-03:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+
+.button-04 {
+    background-color: #7a0376;
+    color: #ffffff;
+    padding: 12px 24px;
+    border: 2px solid #7a0376;
+   font-family: Georgia, serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-04:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Button 05: Slide right (translateX) + box-shadow */
+.button-05 {
+    background-color: #11bcec;
+    color: #ffffff;
+    padding: 16px 24px;
+    border: 2px solid #11bcec;
+    font-family: Baskerville, Monotype;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button-05:hover {
+    background-color: #ffffff;
+    color: #0066CC;
+    border-color: #0066CC;
+}
+
+/* Button 06: Border glow (box-shadow + border-color + text color) */
+.button-06 {
+    background-color: #096b26;
+    color: #ffffff;
+    padding: 32px 32px;
+    border: 2px solid #096b26;
+    font-family: "Times New Roman", serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-06:hover {
+    background-color: #ffffff;
+    color: #74ed92;
+    border-color: #0066CC;
+}
