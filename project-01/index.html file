@@ -31,62 +31,57 @@ Alongside my studies, I bring more than 18 years of operational and customer exp
 Outside of work, I’m deeply invested in community and organizational leadership, including serving as the founding Chapter President of the Delta Chi Chapter of Tri Psi Sorority at Tulane University, a longtime Girl Scout leader and Service Unit Executive Board member, and a Project Graduation Co-Chair. Across every role, I’m driven by encouraging, motivating, and developing people to do their best work and create lasting impact.
 
 #Leadership #HumanResources #CustomerExperience #OperationsLeadership #PeopleDevelopment
-      </p>
-    </section>
-
-    <section id="skills" class="content-section">
-      <h2>Skills &amp; Interests</h2>
-      <div class="skills-flex">
-        <article class="skill-card">
-          <h3>Operations &amp; Leadership</h3>
-          <p>Multi-site team leadership, workflow quality assurance, and mentoring emerging leaders.</p>
-        </article>
-        <article class="skill-card">
-          <h3>Web &amp; Data Tools</h3>
-          <p>Semantic HTML, responsive CSS Flexbox, Excel, Salesforce, Sisense, and Git workflows.</p>
-        </article>
-        <article class="skill-card">
-          <h3>Community &amp; Coastal Travel</h3>
-          <p>Youth mentorship, volunteer event coordination, clean web layouts, and coastal getaways.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="projects" class="content-section">
-      <h2>Projects</h2>
-      <div class="projects-flex">
-        <article class="project-card">
-          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Calm ocean waves along a sandy shoreline" />
-          <div class="project-body">
-            <h3>Coastal Travel Planner Concept</h3>
-            <p>Placeholder layout for organizing coastal itineraries, lodging notes, and trip checklists.</p>
-            <a href="#contact" class="card-action">Request Details</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Workspace with notebook and planning materials" />
-          <div class="project-body">
-            <h3>Operations Readiness Tracker</h3>
-            <p>Placeholder concept for tracking team onboarding milestones, SLAs, and service metrics.</p>
-            <a href="#contact" class="card-action">View Concept</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Team members collaborating around a table" />
-          <div class="project-body">
-            <h3>Volunteer Event Hub</h3>
-            <p>Placeholder design for coordinating community volunteers, schedules, and event roles.</p>
-            <a href="#contact" class="card-action">Explore Layout</a>
-          </div>
-        </article>
-      </div>
-    </section>
-  </main>
-
-  <footer id="contact" class="site-footer">
-    <p>Southlake, Texas &middot; <a href="mailto:katherine.thomas@ttu.edu" class="footer-link">katherine.thomas@ttu.edu</a></p>
-  </footer>
+</p>
+  </section>
+ <section id="skills" class="content-section">
+  <h2>Skills &amp; Interests</h2>
+ <div class="skills-flex">
+  <article class="skill-card">
+ <h3>Operations &amp; Leadership</h3>
+   <p>Multi-site team leadership, workflow quality assurance, and mentoring emerging leaders.</p>
+ </article>
+<article class="skill-card">
+ <h3>Web &amp; Data Tools</h3>
+ <p>Semantic HTML, responsive CSS Flexbox, Excel, Salesforce, Sisense, and Git workflows.</p>
+ </article>
+<article class="skill-card">
+<h3>Community &amp; Coastal Travel</h3>
+<p>Youth mentorship, volunteer event coordination, clean web layouts, and coastal getaways.</p>
+</article>
+</div>
+</section>
+<section id="projects" class="content-section">
+<h2>Projects</h2>
+<div class="projects-flex">
+<article class="project-card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="Calm ocean waves along a sandy shoreline" />
+<div class="project-body">
+<h3>Coastal Travel Planner Concept</h3>
+<p>Placeholder layout for organizing coastal itineraries, lodging notes, and trip checklists.</p>
+<a href="#contact" class="card-action">Request Details</a>
+</div>
+</article>
+<article class="project-card">
+<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Workspace with notebook and planning materials" />
+<div class="project-body">
+<h3>Operations Readiness Tracker</h3>
+<p>Placeholder concept for tracking team onboarding milestones, SLAs, and service metrics.</p>
+<a href="#contact" class="card-action">View Concept</a>
+</div>
+</article>
+<article class="project-card">
+<img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Team members collaborating around a table" />
+<div class="project-body">
+<h3>Volunteer Event Hub</h3>
+<p>Placeholder design for coordinating community volunteers, schedules, and event roles.</p>
+<a href="#contact" class="card-action">Explore Layout</a>
+</div>
+</article>
+</div>
+</section>
+</main>
+<footer id="contact" class="site-footer">
+<p>Southlake, Texas &middot; <a href="mailto:katherine.thomas@ttu.edu" class="footer-link">katherine.thomas@ttu.edu</a></p>
+</footer>
 </body>
 </html>
