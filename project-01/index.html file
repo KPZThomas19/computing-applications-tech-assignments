@@ -47,22 +47,22 @@
 <!-- 3. SKILLS AND INTERESTS SECTION -->
     <section id="skills" class="section alt-bg">
       <div class="container">
-        <h2>Skills &amp; Interests</h2>
+        <h2>Skills & Interests</h2>
         <div class="card-grid">
           <article class="card">
-            <h3>Executive &amp; Customer Experience Leadership</h3>
+            <h3>Executive & Customer Experience Leadership</h3>
             <p>18+ years leading multi-tiered contact centers, workforce capacity models, SLA performance, and quality assurance.</p>
           </article>
           <article class="card">
-            <h3>People &amp; HR Strategy</h3>
+            <h3>People & HR Strategy</h3>
             <p>Team development, coaching, cross-functional collaboration, and organizational cultural building.</p>
           </article>
           <article class="card">
-            <h3>Web &amp; Technical Tools</h3>
+            <h3>Web Technical Tools</h3>
             <p>Semantic HTML5, CSS3, Flexbox, responsive design, Salesforce, Sisense, Excel, and GitHub workflows.</p>
           </article>
           <article class="card">
-            <h3>Community &amp; Travel</h3>
+            <h3>Community Travel</h3>
             <p>Youth mentorship, nonprofit governance, civic volunteering, and exploring coastal towns with family.</p>
           </article>
         </div>
@@ -79,7 +79,7 @@
             <div class="card-body">
               <h3>Workforce Capacity Model</h3>
               <p>A multi-site staffing and SLA forecasting framework designed for 24/7 customer experience operations.</p>
-              <a href="#projects" class="card-link">View Case Study &rarr;</a>
+              <a href="#projects" class="card-link">View Case Study</a>
             </div>
           </article>
 
@@ -88,7 +88,7 @@
             <div class="card-body">
               <h3>Leadership Onboarding Playbook</h3>
               <p>Structured training and mentorship curriculum created to develop frontline managers into senior leaders.</p>
-              <a href="#projects" class="card-link">View Case Study &rarr;</a>
+              <a href="#projects" class="card-link">View Case Study</a>
             </div>
           </article>
 
@@ -97,7 +97,7 @@
             <div class="card-body">
               <h3>Responsive Web Design Portfolio</h3>
               <p>Hand-coded HTML5 and CSS3 web interfaces focused on clean typography, accessibility, and Flexbox layouts.</p>
-              <a href="#projects" class="card-link">View Case Study &rarr;</a>
+              <a href="#projects" class="card-link">View Case Study</a>
             </div>
           </article>
         </div>
@@ -113,7 +113,7 @@
       <p>
         Contact: <a href="mailto:your-kpzthomas19@gmail.com" class="footer-link">your-email@ttu.edu</a>
       </p>
-      <p>&copy; 2026 Katherine P.Z. Thomas</p>
+      <p>2026 Katherine P.Z. Thomas</p>
     </div>
   </footer>
 
