@@ -1,6 +1,6 @@
 :root {
   --bg-page: #298aeb;
-  --bg-surface: #ffffff;
+  --bg-surface: #dc2424;
   --bg-accent: #0f3050;
   --color-primary: #080fdd;
   --color-accent-hover: #10b1f7;
@@ -136,7 +136,7 @@ body {
 
 .skill-card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 16x 32px rgba(16, 42, 67, 0.08);
+  box-shadow: 0 16x 32px rgba(82, 8, 77, 0.08);
   border-color: var(--color-accent-hover);
 }
 
@@ -162,7 +162,7 @@ body {
 
 .project-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 22px rgba(16, 42, 67, 0.12);
+  box-shadow: 0 10px 22px rgba(2, 44, 83, 0.12);
   border-color: var(--color-primary);
 }
 
@@ -187,7 +187,7 @@ body {
 /* Footer */
 .site-footer {
   background-color: var(--bg-accent);
-  color: var(--text-light);
+  color: var(--text-dark);
   text-align: center;
   padding: 1.25rem 1.5rem;
 }
@@ -204,7 +204,7 @@ body {
 }
 
 .footer-link:hover {
-  color: #ffffff;
+  color: #cd4141;
   text-decoration: underline;
 }
 
