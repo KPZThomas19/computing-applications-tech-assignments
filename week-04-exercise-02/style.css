@@ -89,3 +89,8 @@ main>p {
     }
 
 }
+@media (width >= 1024px) {
+    .collection-card {
+        flex-basis: 30%;
+    }
+}
